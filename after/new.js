@@ -163,6 +163,7 @@ export const BurnPage = () => {
   }, [walletChain, isOldToken]);
 
   return (
+    // biome-ignore lint/suspicious/noAssignInExpressions: <explanation>
     <div>
  <BurnPage
       burnAmount={burnAmount}
